@@ -1,1 +1,132 @@
-Print
+// Ex1
+
+// Напишите программу, которая на вход принимает число и выдает его квадрат (число умноженное на само себя)
+
+// Например:
+// 4 - 16
+// 3 - 9
+// -7 - 49
+
+// Console.WriteLine("Enter number1:");
+// int a = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Enter number2:");
+// int b = Convert.ToInt32(Console.ReadLine());
+
+// if (b * b== a)
+// {
+//     Console.WriteLine("The square of the number");
+// }
+// else
+// {
+//      Console.WriteLine("Non a square of the number");
+// }
+
+// Ex2
+
+// int num = Convert.ToInt32(Console.ReadLine());
+// Console.Write($"Аnswer - {num * num}");
+
+// int num = Convert.ToInt32(Console.ReadLine());
+
+
+// if (num > 10)
+// {
+// Console.Write("> 10"); 
+// }
+// else
+// {
+// Console.Write(" меньше 10"); 
+// }
+
+//Ex3
+
+// Напишите программу, которая будет выдавать название дня недели по заданному номеру.
+// 3 -> Среда 
+// 5 -> Пятница
+
+
+// Console.WriteLine("Enter number;");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// string[] mas = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+
+// if (num < 8 && num > 0)
+// {
+//         Console.WriteLine($"Day of the week: {mas[num - 1]}");
+// }
+// else
+// {
+//     Console.WriteLine($"Error");
+// }
+
+
+// Ex4
+
+// Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает последнюю цифру этого числа.
+// 456 -> 6
+// 782 -> 2
+// 918 -> 8
+
+// Console.WriteLine("Enter number;");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// int result = num % 10;
+// Console.WriteLine(result);
+
+// Home Work
+// Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
+
+// Console.Write("Enter nubmer1: ");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter number2: ");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+
+// if (num1 > num2)
+// {
+//        Console.WriteLine($"Max {num1}");
+//  }
+//  else
+//  {
+//      Console.WriteLine($"Max {num2}");
+//  }
+
+// Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+
+//  Console.WriteLine("enter 3 numbers: ");
+//  int num1 = Convert.ToInt32(Console.ReadLine());
+//  int num2 = Convert.ToInt32(Console.ReadLine());
+//  int num3 = Convert.ToInt32(Console.ReadLine());
+
+//  if (num1 > num2 && num1 > num3)
+//  {
+//      Console.WriteLine($"Number {num1} - max");
+//  }
+//  if (num2 > num1 && num2 > num3)
+//  {
+//      Console.WriteLine($"Number {num2} - max");
+//  }
+//  if (num3 > num1 && num3 > num2)
+//  {
+//      Console.WriteLine($"Number {num3} - max");
+//  }
+
+// Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+// 4 -> да
+// -3 -> нет
+// 7 -> нет
+
+
+// Ex6 Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+// Console.WriteLine("Enter number: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// if (num % 2 == 0)
+// {
+//     Console.WriteLine("Number Even");
+// }
+// else
+// {
+//     Console.WriteLine("Number Odd");
+// }
+
